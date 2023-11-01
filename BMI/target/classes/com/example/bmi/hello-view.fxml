@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="inputWeight" layoutX="109.0" layoutY="66.0" />
+      <TextArea layoutX="415.0" layoutY="111.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField fx:id="inputHeight" layoutX="109.0" layoutY="111.0" />
+      <RadioButton fx:id="English" layoutX="276.0" layoutY="183.0" mnemonicParsing="false" text="English">
+         <toggleGroup>
+            <ToggleGroup fx:id="fun" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="Metric" layoutX="42.0" layoutY="183.0" mnemonicParsing="false" text="Metric" toggleGroup="$fun" />
+      <Button layoutX="160.0" layoutY="286.0" mnemonicParsing="false" text="Calculate" />
+      <Label fx:id="Result" alignment="CENTER" layoutX="123.0" layoutY="158.0" prefHeight="84.0" prefWidth="121.0" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+   </children>
+</AnchorPane>
